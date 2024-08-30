@@ -1,0 +1,158 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #333;
+    position: relative;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h1 {
+    font-size: 3em;
+    color: #ffcc00;
+}
+
+.profile-info p {
+    margin: 20px 0;
+    font-size: 1.2em;
+    max-width: 400px;
+}
+
+.profile-info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.profile-info .btn:hover {
+    background-color: #e6b800;
+}
+
+.profile-image {
+    flex: 1;
+    text-align: right;
+}
+
+.profile-image img {
+    border-radius: 50%;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #222;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Services Section */
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.service-box {
+    background-color: #444;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+.service-box h2 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1.1em;
+}
+
+/* Statistics Section */
+.statistics {
+    background-color: #333;
+    padding: 50px 0;
+}
+
+.statistics .stat-box {
+    text-align: center;
+    flex: 1;
+}
+
+.statistics .stat-box h3 {
+    font-size: 2.5em;
+    color: #ffcc00;
+}
+
+.statistics .stat-box p {
+    font-size: 1.1em;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff;
+}
